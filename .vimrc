@@ -382,7 +382,7 @@ endfunction
 
 " Specify the behavior when switching between buffers 
 try
-  set switchbuf=usetab
+  set switchbuf=usetab,newtab
   set stal=2
 catch
 endtry
